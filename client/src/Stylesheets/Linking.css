@@ -1,0 +1,25 @@
+.ProfileCardColWidthLR {
+  width: 10vw;
+}
+.ProfileCardColMidWidthLR {
+  width: 14vw;
+}
+
+.ProfileCardColBigWidthLR {
+  width: 26vw;
+}
+
+.TitleCardColWidthLR {
+  width: 10vw;
+  font-size: 1vw;
+}
+
+.TitleCardMidColWidthLR {
+  width: 14vw;
+  font-size: 1vw;
+}
+
+.TitleCardColBigWidthLR {
+  width: 26vw;
+  font-size: 1vw;
+}

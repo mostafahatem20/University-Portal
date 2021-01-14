@@ -1,0 +1,14 @@
+.logoLog {
+  width: 25vw;
+}
+.logTable {
+  margin-left: auto;
+  margin-right: auto;
+  height: 35vw;
+}
+
+.error {
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(255, 0, 0, 0.767);
+}

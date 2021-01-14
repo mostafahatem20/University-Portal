@@ -1,0 +1,110 @@
+.SendReplacementReqButton,
+.SendReplacementReqButton:focus {
+  background-color: rgba(1, 155, 157, 1);
+  border: none !important;
+  outline: none !important;
+  font-size: max(1.5vw, 18px) !important;
+  box-shadow: none !important;
+  float: right;
+  margin-top: 0.5vw;
+}
+
+.SendReplacementReqForm,
+.SendReplacementReqForm:focus {
+  border: 1px solid #ced4da !important;
+  font-size: max(1.2vw, 14px) !important;
+  box-shadow: none !important;
+  width: 18vw;
+}
+
+.SendReplacementReqCol1 {
+  padding-bottom: 1vw !important ;
+  width: 7vw;
+}
+
+.SendReplacementReqCol2 {
+  padding-bottom: 1vw !important ;
+  width: 10vw;
+}
+
+.SendReplacementReqCol3 {
+  padding-bottom: 1vw !important ;
+  width: 13vw;
+  padding-left: 1vw;
+}
+.SendReplacementReqGeneral {
+  font-size: max(1.5vw, 18px) !important;
+}
+.SendReplacementReqDatetable {
+  /* margin-top: 4vw; */
+  margin-bottom: 1vw;
+}
+
+.SendReplacementReqDate input {
+  border: 1px solid red;
+  border: 1px solid #ced4da !important;
+  font-size: max(1.2vw, 14px) !important;
+  box-shadow: none !important;
+  width: 18vw;
+  display: block;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.SendReplacementReqProblem {
+  float: right;
+  color: red;
+  font-size: max(1.2vw, 14px) !important;
+}
+
+.SendReplacementReqError {
+  float: right;
+  color: red;
+  font-size: max(1.15vw, 14px) !important;
+}
+
+.SendReplacementReq3 {
+  padding-top: 2vw;
+}
+
+.SendNewReplacementReqButton,
+.SendNewReplacementReqButton:focus {
+  background-color: rgba(1, 155, 157, 1);
+  border: none !important;
+  outline: none !important;
+  font-size: 1.5vw !important;
+  box-shadow: none !important;
+}
+
+.SendReplacementAcceptRej {
+  padding: 0.3vw;
+  font-size: 3vw;
+  cursor: pointer;
+  width: 1.8vw;
+}
+
+.ProfileCardColWidthRR {
+  width: 10vw;
+}
+
+.ProfileCardColBigWidthRR {
+  width: 15vw;
+}
+
+.TitleCardColWidthRR {
+  width: 10vw;
+  font-size: 1vw;
+}
+
+.TitleCardColBigWidthRR {
+  width: 15vw;
+  font-size: 1vw;
+}
