@@ -1,3 +1,11 @@
+# ACL_Project
+
+1. 'npm run dev' command in the terminal starts the project (backend and frontend concurently)
+2. server is listening to port 5000
+3. client is listening to port 3000
+4. Deployed on the following URL:
+   https://notsosoftware.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
