@@ -9,36 +9,40 @@ export const loginAPI = (email, password, history) => {
         email,
         password,
       },
-    }).then((res) => {
-      if (res.data.statusCode === '000') {
-        const name = res.data.payLoad.name
-        const token = res.data.token
-        const id = res.data.payLoad.id
-        const type = res.data.payLoad.type
-        const email = res.data.payLoad.email
-        const passwordStatus = res.data.payLoad.passwordStatus
-        dispatch(setToken(token))
-        dispatch(setID(id))
-        dispatch(setName(name))
-        dispatch(setPasswordStatus(passwordStatus))
-        if (res.data.payLoad.department) {
-          const department = res.data.payLoad.department
-          dispatch(setDepartment(department))
-        }
-        dispatch(setType(type))
-        dispatch(setEmail(email))
-        history.push('/')
-      } else {
-        dispatch(unsetToken())
-        dispatch(unsetID())
-        dispatch(unsetName())
-        dispatch(unsetDepartment())
-        dispatch(unsetType())
-        dispatch(unsetEmail())
-        dispatch(unsetPasswordStatus())
-      }
-      return res.data
     })
+      .then((res) => {
+        if (res.data.statusCode === '000') {
+          const name = res.data.payLoad.name
+          const token = res.data.token
+          const id = res.data.payLoad.id
+          const type = res.data.payLoad.type
+          const email = res.data.payLoad.email
+          const passwordStatus = res.data.payLoad.passwordStatus
+          dispatch(setToken(token))
+          dispatch(setID(id))
+          dispatch(setName(name))
+          dispatch(setPasswordStatus(passwordStatus))
+          if (res.data.payLoad.department) {
+            const department = res.data.payLoad.department
+            dispatch(setDepartment(department))
+          }
+          dispatch(setType(type))
+          dispatch(setEmail(email))
+          history.push('/')
+        } else {
+          dispatch(unsetToken())
+          dispatch(unsetID())
+          dispatch(unsetName())
+          dispatch(unsetDepartment())
+          dispatch(unsetType())
+          dispatch(unsetEmail())
+          dispatch(unsetPasswordStatus())
+        }
+        return res.data
+      })
+      .catch((err) => {
+        console.log(err)
+      })
   }
 }
 
