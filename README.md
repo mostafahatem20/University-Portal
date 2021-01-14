@@ -1,9 +1,10 @@
 # ACL_Project
 
-1. 'npm run dev' command in the terminal starts the project (backend and frontend concurently)
-2. server is listening to port 5000
-3. client is listening to port 3000
-4. Deployed on the following URL:
+1. run 'npm i' in the root directory and run it also in client folder
+2. 'npm run dev' command in the terminal starts the project (backend and frontend concurently)
+3. server is listening to port 5000
+4. client is listening to port 3000
+5. Deployed on the following URL:
    https://notsosoftware.herokuapp.com/
 
 ---
