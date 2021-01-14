@@ -72,8 +72,6 @@ connectDB()
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
 })
-console.log(process)
-
 const port = 5000
 if (process.env.PORT) {
   app.listen(process.env.PORT, () =>
